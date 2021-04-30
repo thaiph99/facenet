@@ -29,9 +29,10 @@ from __future__ import print_function
 
 import os
 from subprocess import Popen, PIPE
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 import numpy as np
-from scipy import misc
+# from scipy import misc
+import imageio as misc # fake scipy 
 from sklearn.model_selection import KFold
 from scipy import interpolate
 from tensorflow.python.training import training
@@ -90,9 +91,9 @@ def shuffle_examples(image_paths, labels):
     image_paths_shuff, labels_shuff = zip(*shuffle_list)
     return image_paths_shuff, labels_shuff
 
-def random_rotate_image(image):
-    angle = np.random.uniform(low=-10.0, high=10.0)
-    return misc.imrotate(image, angle, 'bicubic')
+# def random_rotate_image(image):
+#     angle = np.random.uniform(low=-10.0, high=10.0)
+#     return misc.imrotate(image, angle, 'bicubic')
   
 # 1: Random rotate 2: Random crop  4: Random flip  8:  Fixed image standardization  16: Flip
 RANDOM_ROTATE = 1
