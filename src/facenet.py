@@ -274,7 +274,7 @@ def load_data(image_paths, do_random_crop, do_random_flip, image_size, do_prewhi
             img = prewhiten(img)
         img = crop(img, do_random_crop, image_size)
         img = flip(img, do_random_flip)
-        imt = cv2
+        img = cv2.resize(img, dsize=(160, 160))
         images[i, :, :, :] = img
     return images
 
