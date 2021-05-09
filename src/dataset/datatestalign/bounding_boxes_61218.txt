@@ -1,0 +1,28 @@
+dataset/datatestalign/Hoang Ngoc/IMG_20200611_104347.png 507 510 1834 2297
+dataset/datatestalign/Hoang Ngoc/IMG_20200611_104351.png 547 634 1745 2241
+dataset/datatestalign/Hoang Ngoc/IMG_20200611_104356.png 981 615 2164 2166
+dataset/datatestalign/Hoang Ngoc/IMG_20200611_104347 - Copy.png 507 510 1834 2297
+dataset/datatestalign/Minh/IMG_20200611_104012 - Copy.png 47 0 1994 2393
+dataset/datatestalign/Minh/IMG_20200611_104001.png 131 181 2067 2647
+dataset/datatestalign/Minh/IMG_20200611_104006.png 282 187 2128 2606
+dataset/datatestalign/Minh/IMG_20200611_104008.png 131 181 2067 2647
+dataset/datatestalign/Thai/img_in_-2sec.png 194 246 394 480
+dataset/datatestalign/Thai/img_in_2sec.png 193 162 419 441
+dataset/datatestalign/Thai/img_in_-4sec.png 195 184 445 480
+dataset/datatestalign/Thai/img_in_-5sec.png 171 172 418 480
+dataset/datatestalign/Thanh Tung/IMG_20200611_103842.png 734 823 1925 2324
+dataset/datatestalign/Thanh Tung/IMG_20200611_103837.png 500 455 1712 2123
+dataset/datatestalign/Thanh Tung/IMG_20200611_103839.png 705 511 1838 2128
+dataset/datatestalign/Thanh Tung/IMG_20200611_103828.png 610 756 1843 2417
+dataset/datatestalign/Tu/IMG_20200611_102945.png 486 820 1739 2342
+dataset/datatestalign/Tu/IMG_20200611_102944.png 302 1115 1538 2913
+dataset/datatestalign/Tu/IMG_20200611_102948.png 501 1161 1872 3049
+dataset/datatestalign/Tu/IMG_20200611_102942.png 476 1133 1855 2942
+dataset/datatestalign/Tung/IMG_20200611_104058.png 404 777 1920 2887
+dataset/datatestalign/Tung/IMG_20200611_104059.png 413 633 1972 2851
+dataset/datatestalign/Tung/IMG_20200611_104101.png 656 567 2097 2724
+dataset/datatestalign/Tung/IMG_20200611_104102.png 632 656 2179 2762
+dataset/datatestalign/XuanThai/103483269_715378365895448_5376603196257570634_n.png 152 210 518 647
+dataset/datatestalign/XuanThai/103991517_3324519920921245_4397113220300066602_n.png 121 278 499 758
+dataset/datatestalign/XuanThai/103433201_291043705369706_8511907979187109890_n.png 89 164 487 695
+dataset/datatestalign/XuanThai/103309876_685181102042908_5141312126032000697_n.png 72 296 519 842

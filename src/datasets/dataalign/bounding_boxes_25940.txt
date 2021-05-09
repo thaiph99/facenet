@@ -1,0 +1,27 @@
+datasets/dataalign/Hoang Ngoc/IMG_20200611_104354_1.png 74 406 1366 2064
+datasets/dataalign/Hoang Ngoc/IMG_20200611_104313.png 568 1120 1699 2555
+datasets/dataalign/Hoang Ngoc/IMG_20200611_104352.png 611 521 1866 2158
+datasets/dataalign/Hoang Ngoc/IMG_20200611_104309.png 411 928 1445 2207
+datasets/dataalign/Hoang Ngoc/IMG_20200611_104336.png 672 410 1747 1818
+datasets/dataalign/Hoang Ngoc/IMG_20200611_104305.png 953 929 2064 2356
+datasets/dataalign/Minh/IMG_20200611_104010.png 262 25 2011 2390
+datasets/dataalign/Minh/IMG_20200611_104004.png 140 336 2012 2847
+datasets/dataalign/Minh/IMG_20200611_104012.png 47 0 1994 2393
+datasets/dataalign/Minh/IMG_20200611_103959.png 0 117 1751 2572
+datasets/dataalign/Minh/IMG_20200611_104000.png 901 194 2840 2926
+datasets/dataalign/Minh/IMG_20200611_103956.png 51 532 1813 2792
+datasets/dataalign/Thai/img_in_3sec.png 194 177 428 475
+datasets/dataalign/Thai/img_in_-10sec.png 208 168 436 478
+datasets/dataalign/Thai/img_in_1sec.png 152 257 363 480
+datasets/dataalign/Thai/img_in_-1sec.png 188 244 387 480
+datasets/dataalign/Thai/img_in_-20sec.png 204 176 450 480
+datasets/dataalign/Thai/img_in_5sec.png 175 165 405 466
+datasets/dataalign/Thai/img_in_20sec.png 166 178 400 480
+datasets/dataalign/Thai/img_in_-3sec.png 195 177 439 480
+datasets/dataalign/Thai/img_in_4sec.png 203 156 435 460
+datasets/dataalign/Thanh Tung/IMG_20200611_103832.png 838 485 2154 2292
+datasets/dataalign/Thanh Tung/IMG_20200611_103821.png 311 353 1883 2430
+datasets/dataalign/Thanh Tung/IMG_20200611_103915.png 461 337 1704 2030
+datasets/dataalign/Thanh Tung/IMG_20200611_103822.png 739 438 2186 2396
+datasets/dataalign/Thanh Tung/IMG_20200611_103841.png 537 627 1789 2359
+datasets/dataalign/Thanh Tung/IMG_20200611_103819.png 666 131 2151 2268

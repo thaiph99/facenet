@@ -1,0 +1,45 @@
+dataset/dataalign/Hoang Ngoc/IMG_20200611_104354_1.png 74 406 1366 2064
+dataset/dataalign/Hoang Ngoc/IMG_20200611_104313.png 568 1120 1699 2555
+dataset/dataalign/Hoang Ngoc/IMG_20200611_104352.png 611 521 1866 2158
+dataset/dataalign/Hoang Ngoc/IMG_20200611_104309.png 411 928 1445 2207
+dataset/dataalign/Hoang Ngoc/IMG_20200611_104336.png 672 410 1747 1818
+dataset/dataalign/Hoang Ngoc/IMG_20200611_104305.png 953 929 2064 2356
+dataset/dataalign/Minh/IMG_20200611_104010.png 262 25 2011 2390
+dataset/dataalign/Minh/IMG_20200611_104004.png 140 336 2012 2847
+dataset/dataalign/Minh/IMG_20200611_104012.png 47 0 1994 2393
+dataset/dataalign/Minh/IMG_20200611_103959.png 0 117 1751 2572
+dataset/dataalign/Minh/IMG_20200611_104000.png 901 194 2840 2926
+dataset/dataalign/Minh/IMG_20200611_103956.png 51 532 1813 2792
+dataset/dataalign/Thai/img_in_3sec.png 194 177 428 475
+dataset/dataalign/Thai/img_in_-10sec.png 208 168 436 478
+dataset/dataalign/Thai/img_in_1sec.png 152 257 363 480
+dataset/dataalign/Thai/img_in_-1sec.png 188 244 387 480
+dataset/dataalign/Thai/img_in_-20sec.png 204 176 450 480
+dataset/dataalign/Thai/img_in_5sec.png 175 165 405 466
+dataset/dataalign/Thai/img_in_20sec.png 166 178 400 480
+dataset/dataalign/Thai/img_in_-3sec.png 195 177 439 480
+dataset/dataalign/Thai/img_in_4sec.png 203 156 435 460
+dataset/dataalign/Thanh Tung/IMG_20200611_103832.png 838 485 2154 2292
+dataset/dataalign/Thanh Tung/IMG_20200611_103821.png 311 353 1883 2430
+dataset/dataalign/Thanh Tung/IMG_20200611_103915.png 461 337 1704 2030
+dataset/dataalign/Thanh Tung/IMG_20200611_103822.png 739 438 2186 2396
+dataset/dataalign/Thanh Tung/IMG_20200611_103841.png 537 627 1789 2359
+dataset/dataalign/Thanh Tung/IMG_20200611_103819.png 666 131 2151 2268
+dataset/dataalign/Tu/IMG_20200611_102939.png 414 1657 1688 3264
+dataset/dataalign/Tu/IMG_20200611_102935.png 578 1178 1844 2832
+dataset/dataalign/Tu/IMG_20200606_150533.png 585 1005 1599 2338
+dataset/dataalign/Tu/IMG_20200606_150531.png 635 965 1664 2315
+dataset/dataalign/Tu/IMG_20200611_102933.png 488 1117 1722 2874
+dataset/dataalign/Tu/IMG_20200611_102930.png 427 1076 1783 2781
+dataset/dataalign/Tung/IMG_20200611_104056.png 130 804 1596 2935
+dataset/dataalign/Tung/IMG_20200611_104054.png 363 563 1927 2823
+dataset/dataalign/Tung/IMG_20200611_104052.png 129 382 1578 2232
+dataset/dataalign/Tung/IMG_20200611_104051.png 0 298 1489 2501
+dataset/dataalign/Tung/IMG_20200611_104049.png 539 126 2104 2280
+dataset/dataalign/Tung/IMG_20200611_104047.png 256 0 1926 1998
+dataset/dataalign/XuanThai/101960073_655458838401486_6807495436957662443_n (1).png 128 164 581 772
+dataset/dataalign/XuanThai/101554641_685633365552764_3852049260969526054_n.png 87 222 603 929
+dataset/dataalign/XuanThai/103135178_755370971668587_3493876987240735455_n.png 18 301 455 848
+dataset/dataalign/XuanThai/101987172_1679606802193608_4933569610676089928_n.png 163 349 590 880
+dataset/dataalign/XuanThai/102279745_774385206298848_6714100150405877334_n.png 164 213 574 729
+dataset/dataalign/XuanThai/101860501_844032976086831_8794718461210553753_n.png 243 73 415 284

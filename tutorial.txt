@@ -1,11 +1,22 @@
 train with own dataset :
-/usr/bin/python3 src/classifier.py TRAIN /home/thai/Data1/VN-celeb/ /home/thai/Data1/20180408-102900/20180408-102900.pb /home/thai/Data2/facenet/src/models/lwf_classifier.pkl --batch_size 1000 --min_nrof_images_per_class 40 --nrof_train_images_per_class 35 --use_split_dataset
+/usr/bin/python3 src/classifier.py TRAIN /home/thai/Data2/facenet/src/dataset/dataalign /home/thai/Data1/20180408-102900/20180408-102900.pb /home/thai/Data2/facenet/src/models/lwf_classifier.pkl --batch_size 1000 --min_nrof_images_per_class 40 --nrof_train_images_per_class 35 --use_split_dataset
 /usr/bin/python3 src/classifier.py TRAIN /home/it/Data/dataset/VN-celeb/ /home/it/Data/models/20180408-102900/20180408-102900.pb /home/it/Data/thaiphData/facenet/src/models/lwf_classifier.pkl --batch_size 1000 --min_nrof_images_per_class 40 --nrof_train_images_per_class 35 --use_split_dataset
+/usr/bin/python3 src/classifier.py TRAIN /home/thai/Data2/face-recognition-system/dataset/ /home/thai/Data1/20180408-102900/20180408-102900.pb /home/thai/Data2/facenet/src/models/lwf_classifier.pkl --batch_size 1000 --min_nrof_images_per_class 40 --nrof_train_images_per_class 35 --use_split_dataset
 
 test accuracy :
-/usr/bin/python3 src/classifier.py CLASSIFY /home/thai/Data1/VN-celeb/ /home/thai/Data1/20180408-102900/20180408-102900.pb /home/thai/Data2/facenet/src/models/lwf_classifier.pkl --batch_size 1000
+/usr/bin/python3 src/classifier.py CLASSIFY /home/thai/Data2/facenet/src/dataset/datatestalign /home/thai/Data1/20180408-102900/20180408-102900.pb /home/thai/Data2/facenet/src/models/lwf_classifier.pkl --batch_size 1000
 /usr/bin/python3 src/classifier.py CLASSIFY /home/it/Data/dataset/VN-celeb/ /home/it/Data/models/20180408-102900/20180408-102900.pb /home/it/Data/thaiphData/facenet/src/models/lwf_classifier.pkl --batch_size 1000
 
 train triplet loss :
 /usr/bin/python3 src/train_tripletloss.py --logs_base_dir ~/logs/facenet/ --models_base_dir ~/models/facenet/ --data_dir /home/thai/Data1/VN-celeb/ --image_size 160 --model_def models.inception_resnet_v1 --optimizer RMSPROP --learning_rate 0.01 --weight_decay 1e-4 --max_nrof_epochs 500
 /usr/bin/python3 src/train_tripletloss.py --logs_base_dir ~/logs/facenet/ --models_base_dir ~/models/facenet/ --data_dir /home/it/Data/dataset/VN-celeb/ --image_size 160 --model_def models.inception_resnet_v1 --optimizer RMSPROP --learning_rate 0.01 --weight_decay 1e-4 --max_nrof_epochs 500
+
+
+/usr/bin/python3 src/train_tripletloss.py --logs_base_dir ~/logs/facenet/ --models_base_dir ~/models/facenet/ --data_dir /home/thai/Data2/facenet/src/dataset/dataalign --image_size 160 --model_def models.inception_resnet_v1 --optimizer RMSPROP --learning_rate 0.01 --weight_decay 1e-4 --max_nrof_epochs 500
+
+
+/usr/bin/python3 src/align/align_dataset_mtcnn.py \
+dataset/datatrain \
+datasets/dataalign \
+--image_size 182 \
+--margin 44
