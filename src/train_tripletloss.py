@@ -482,9 +482,9 @@ def parse_arguments(argv):
     parser.add_argument('--image_size', type=int,
                         help='Image size (height, width) in pixels.', default=160)
     parser.add_argument('--people_per_batch', type=int,
-                        help='Number of people per batch.', default=45)
+                        help='Number of people per batch.', default=7) # 45
     parser.add_argument('--images_per_person', type=int,
-                        help='Number of images per person.', default=40)
+                        help='Number of images per person.', default=6) # 40
     parser.add_argument('--epoch_size', type=int,
                         help='Number of batches per epoch.', default=1000)
     parser.add_argument('--alpha', type=float,
