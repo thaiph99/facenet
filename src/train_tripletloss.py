@@ -265,7 +265,6 @@ def train(args, sess, dataset, epoch, image_paths_placeholder, labels_placeholde
             summary.value.add(tag='loss', simple_value=err)
 
         # Add validation loss and accuracy to summary
-        #pylint: disable=maybe-no-member
         summary.value.add(tag='time/selection', simple_value=selection_time)
         summary_writer.add_summary(summary, step)
     return step
@@ -279,12 +278,6 @@ def select_triplets(embeddings, nrof_images_per_class, image_paths, people_per_b
     num_trips = 0
     triplets = []
 
-    # VGG Face: Choosing good triplets is crucial and should strike a balance between
-    #  selecting informative (i.e. challenging) examples and swamping training with examples that
-    #  are too hard. This is achieve by extending each pair (a, p) to a triplet (a, p, n) by sampling
-    #  the image n at random, but only between the ones that violate the triplet loss margin. The
-    #  latter is a form of hard-negative mining, but it is not as aggressive (and much cheaper) than
-    #  choosing the maximally violating example, as often done in structured output learning.
 
     for i in xrange(people_per_batch):
         nrof_images = int(nrof_images_per_class[i])
