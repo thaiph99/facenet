@@ -1,27 +1,4 @@
-"""Training a face recognizer with TensorFlow based on the FaceNet paper
-FaceNet: A Unified Embedding for Face Recognition and Clustering: http://arxiv.org/abs/1503.03832
-"""
-# MIT License
-#
-# Copyright (c) 2016 David Sandberg
-#
-# Permission is hereby granted, free of charge, to any person obtaining a copy
-# of this software and associated documentation files (the "Software"), to deal
-# in the Software without restriction, including without limitation the rights
-# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-# copies of the Software, and to permit persons to whom the Software is
-# furnished to do so, subject to the following conditions:
-#
-# The above copyright notice and this permission notice shall be included in all
-# copies or substantial portions of the Software.
-#
-# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-# SOFTWARE.
+
 
 from __future__ import absolute_import
 from __future__ import division
@@ -482,9 +459,9 @@ def parse_arguments(argv):
     parser.add_argument('--image_size', type=int,
                         help='Image size (height, width) in pixels.', default=160)
     parser.add_argument('--people_per_batch', type=int,
-                        help='Number of people per batch.', default=7) # 45
+                        help='Number of people per batch.', default=7)  # 45
     parser.add_argument('--images_per_person', type=int,
-                        help='Number of images per person.', default=6) # 40
+                        help='Number of images per person.', default=6)  # 40
     parser.add_argument('--epoch_size', type=int,
                         help='Number of batches per epoch.', default=1000)
     parser.add_argument('--alpha', type=float,
